@@ -1,0 +1,54 @@
+8
+
+dir
+20
+https://my-pc/svn/local/PetClinic-Ftest/test-output/Suite
+https://my-pc/svn/local
+
+
+
+2017-01-28T12:06:31.738431Z
+19
+admin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7f1ac60d-a1e7-0f42-98c4-d11fde22da09
+
+Test.html
+file
+
+
+
+
+2017-01-28T14:19:51.301000Z
+52df41170f6fc4249a48779ccf300179
+2017-01-28T12:06:31.738431Z
+19
+admin
+has-props
+
+Test.xml
+file
+
+
+
+
+2017-01-28T14:19:51.306000Z
+0d361504cb5e912e7b3f81d7e033e683
+2017-01-28T12:06:31.738431Z
+19
+admin
+has-props
+
