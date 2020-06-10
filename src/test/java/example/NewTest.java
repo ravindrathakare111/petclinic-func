@@ -25,12 +25,11 @@ public class NewTest {
 			//System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 			//System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
 			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mitesh\\Downloads\\chromedriver_win32\\chromedriver.exe");
-			//driver = new ChromeDriver();  
-			driver = new FirefoxDriver(); 
+			//driver = new ChromeDriver();   
 			File file = new File("C:\\gecko\\geckodriver.exe");
 			System.setProperty("webdriver.gecko.driver", file.getAbsolutePath());			
 			
-			
+			driver = new FirefoxDriver();
 			 
 		}		
 		@AfterTest
