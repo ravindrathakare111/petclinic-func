@@ -1,7 +1,8 @@
 package example;		
 
 import java.io.File;
-
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.By;		
 import org.openqa.selenium.WebDriver;		
 import org.openqa.selenium.firefox.FirefoxDriver;	
