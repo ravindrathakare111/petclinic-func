@@ -30,9 +30,7 @@ public class NewTest {
 			//driver = new ChromeDriver();   
 			File file = new File("C:\\gecko\\geckodriver.exe");
 			System.setProperty("webdriver.gecko.driver", file.getAbsolutePath());			
-			ProfilesIni profile = new ProfilesIni(); 
-			FirefoxProfile myprofile = profile.getProfile("TestDemo"); 
-			driver = new FirefoxDriver(myprofile);
+			driver = new FirefoxDriver();
 			
 			
 			 
