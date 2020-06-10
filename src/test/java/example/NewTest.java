@@ -17,7 +17,8 @@ public class NewTest {
 			driver.get("http://35.243.134.198:9090/petclinic/");  
 			String title = driver.getTitle();			
 			System.out.println(">>>>>>"+title);
-			Assert.assertTrue(title.contains("a Spring Framework")); 		
+			Assert.assertTrue(title.contains("a Spring Framework")); 
+			
 		}	
 		@BeforeTest
 		public void beforeTest() {	
@@ -28,8 +29,11 @@ public class NewTest {
 			//driver = new ChromeDriver();   
 			File file = new File("C:\\gecko\\geckodriver.exe");
 			System.setProperty("webdriver.gecko.driver", file.getAbsolutePath());			
+			ProfilesIni profile = new ProfilesIni(); 
+			FirefoxProfile myprofile = profile.getProfile("TestDemo"); 
+			driver = new FirefoxDriver(myprofile);
 			
-			driver = new FirefoxDriver();
+			
 			 
 		}		
 		@AfterTest
